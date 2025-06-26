@@ -1,8 +1,32 @@
-# 忽略所有文件
-*
+# 忽略 IDE 相关文件
+.idea/
+.vscode/
+*.iml
 
-# 但允许 .md 文件
-!*.md
+# 忽略系统文件
+.DS_Store
+Thumbs.db
 
-# 允许 .gitignore 文件本身
-!.gitignore
+# 忽略 Python 缓存和虚拟环境
+__pycache__/
+*.py[cod]
+*$py.class
+.python-version
+venv/
+env/
+.venv/
+
+# 忽略 Node.js 相关
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 忽略编译生成文件
+*.so
+*.dll
+*.pyc
+*.class
+*.exe
+*.out
+*.app
