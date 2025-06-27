@@ -1,2 +1,6 @@
 # 只忽略 python.dll
 python.dll
+
+.venv
+
+.idea
