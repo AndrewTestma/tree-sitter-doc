@@ -99,7 +99,7 @@ def main():
     markdown_doc = generate_markdown_doc(all_info)
 
     # 保存 Markdown 文档
-    with open('mcp-python-sdk.md', 'w', encoding='utf-8') as f:
+    with open('mcp/mcp-python-sdk.md', 'w', encoding='utf-8') as f:
         f.write(markdown_doc)
 
     print("Markdown 文档已生成：mcp-python-sdk.md")
